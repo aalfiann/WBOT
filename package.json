@@ -4,7 +4,8 @@
   "description": "A simple whatsapp reply bot using puppeteer.",
   "main": "src/index.js",
   "scripts": {
-    "app": "node src/index.js",
+    "server": "node src/server.js",
+    "bot": "node src/index.js",
     "pack": "pkg ."
   },
   "bin": "src/index.js",
@@ -34,6 +35,8 @@
   "homepage": "https://github.com/vasani-arpit/WBOT#readme",
   "dependencies": {
     "cli-progress": "^2.1.1",
+    "fastify": "^2.12.1",
+    "fastify-cors": "^3.0.2",
     "mime": "^2.4.4",
     "node-fetch": "^2.3.0",
     "ora": "^3.0.0",

@@ -1,4 +1,19 @@
 
+> This is forked version which is has integrated with Fastify as webhook server.
+
+### Usage
+1. clone this repo
+2. `$ npm install`
+3. Open shell then run `$ npm run bot` (you may need to scan QR Code).
+4. Open another shell then run `$ npm run server` (to activate webhook)
+5. Send message to your number with word `hi`.
+
+Note:
+- To configure response bot, see file at `src/server-routes.js`.
+- To enable bot for group, see file at `bot.json`.
+- `bot-default.json` and `src/inject-default.js` is just example.
+
+---
 
 # WBOT 
 
